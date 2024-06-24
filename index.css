@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3c3a3a, #73675e);
+    box-sizing: border-box;
+}
+
+.conteiner-center {
+    height: 100%;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.meus-interesses {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner-botao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#messageBox {
+    padding: 10px;
+    font-size: 16px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addButton {
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #280917;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background-color: #0056b3;
+}
+
+.listagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+#clearButton {
+    padding: 5px 12px;
+    font-size: 12px;
+    background-color: #280917;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clearButton:hover {
+    background-color: #C70039;
+}
+
+#messageList {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#messageList li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#messageList {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+}
+
+#messageList li {
+    margin-bottom: 10px;
+}
+
+.news {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    width: 322px;
+    height: 141px;
+    background: linear-gradient(to right, #ffffff, #b9ac92);
+    box-shadow: 7.9px 15.8px 15.8px hsl(0deg 0% 0% / 0.25);
+}
+
+.news div {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+    background: #F5F5F5;
+    color: #112BDA;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor-box {
+    text-decoration: underline;
+}
+
+.sponsor-box {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
